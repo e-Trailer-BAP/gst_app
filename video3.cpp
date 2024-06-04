@@ -226,11 +226,12 @@ int main(int argc, char **argv){
     // Init gstreamer
     gst_init(&argc, &argv);
 
-    if (argc != 2) {
-        cout << "Usage:\nvideo3 <video_file>" << endl;
-        return 0;
-    }
-    string fileName(argv[1]);
+    // if (argc != 2) {
+    //     cout << "Usage:\nvideo3 <video_file>" << endl;
+    //     return 0;
+    // }
+    // string fileName(argv[1]);
+    string fileName = "C:/Users/denni/Documents/TU/BAP/e-Vision/data/videos/front.mp4";
     cout << "Playing file : " << fileName << endl;
 
     // Our global data

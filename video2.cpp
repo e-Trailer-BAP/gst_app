@@ -209,14 +209,15 @@ int main(int argc, char **argv) {
     // Init gstreamer
     gst_init(&argc, &argv);
 
-    if (argc != 2) {
-        cout << "Usage:\nvideo2 <video_file>" << endl;
-        return 0;
-    }
+    // if (argc != 2) {
+    //     cout << "Usage:\nvideo2 <video_file>" << endl;
+    //     return 0;
+    // }
 
     // Our global data
     GoblinData data;
-    data.fileName = argv[1];
+    // data.fileName = argv[1];
+    data.fileName = "C:/Users/denni/Documents/TU/BAP/e-Vision/data/videos/front.mp4";
     cout << "Playing file : " << data.fileName << endl;
 
     // Create GSTreamer pipeline

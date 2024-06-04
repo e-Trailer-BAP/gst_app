@@ -1,11 +1,17 @@
 # CMake
-build/
+# build/
 # CLion + QtCreator
-build*/
+# build*/
+.cmake/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
 cmake-build-*/
 *.user
 .idea/
 *.iml
 # VS
-.vs/
+.vscode/
 CMakeSettings.json
